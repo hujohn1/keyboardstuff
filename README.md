@@ -2,7 +2,7 @@
 
 
 
-!\[pcb picture](/pcb screenshot.png)
+!\[pcb picture](./pcb screenshot.png)
 
-!\[sch picture](/sch screenshot.png)
+!\[sch picture](./sch screenshot.png)
 
