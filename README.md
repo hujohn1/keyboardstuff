@@ -2,7 +2,7 @@
 
 
 
-!\[alt text](https://github.com/hujohn1/keyboardstuff/blob/main/pcb%20screenshot.png?raw=true)
+!\[pcb picture](https://raw.githubusercontent.com/hujohn1/keyboardstuff/blob/main/pcb%20screenshot.png)
 
-!\[alt text](https://github.com/hujohn1/keyboardstuff/blob/main/sch%20screenshot.png?raw=true)
+!\[sch picture](https://raw.githubusercontent.com/hujohn1/keyboardstuff/blob/main/sch%20screenshot.png)
 
