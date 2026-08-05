@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MacroPad Design")
+		(date "2026-07-30")
 		(rev "2")
 	)
 	(lib_symbols
