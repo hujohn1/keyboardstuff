@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Stabbed2u") (type "KiCad") (uri "${KIPRJMOD}/Stabbed2u.pretty") (options "") (descr ""))
+	(lib (name "BLEKeyboardKicad") (type "KiCad") (uri "C:/Users/johnh/Documents/ECAD/keyboardstuff/BLEkeyboard/BLEKeyboardKicad") (options "") (descr ""))
+)

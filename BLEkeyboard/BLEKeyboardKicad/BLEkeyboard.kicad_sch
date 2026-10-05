@@ -2444,9 +2444,9 @@
 		)
 		(uuid "55481953-c06d-4402-8583-2eab4661c6e7")
 	)
-	(text "MCU"
+	(text "XIAO-NRF52840PLUS + ON/OFF Switch"
 		(exclude_from_sim no)
-		(at 93.726 26.416 0)
+		(at 109.728 22.352 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4392,7 +4392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f9c78bf-ff03-409f-8718-08d6be3684aa")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 158.75 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4452,7 +4452,7 @@
 		(instances
 			(project "BLEkeyboard"
 				(path "/a8b51667-118e-4d88-a968-30985fdb56f2"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4733,7 +4733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_2.00u"
+		(property "Footprint" "BLEKeyboardKicad:CherryMX_2.00u_PCB_StabWireBottom"
 			(at 267.97 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5216,7 +5216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a648504-cd8b-4423-8cad-65a82156fd30")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR04"
 			(at 111.76 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5276,7 +5276,7 @@
 		(instances
 			(project "BLEkeyboard"
 				(path "/a8b51667-118e-4d88-a968-30985fdb56f2"
-					(reference "#PWR09")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6503,7 +6503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_2.00u"
+		(property "Footprint" "BLEKeyboardKicad:CherryMX_2.00u_PCB_StabWireBottom"
 			(at 267.97 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6927,7 +6927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ef679bf-e715-45b4-acce-40fba9ae6d35")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 165.1 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6987,7 +6987,7 @@
 		(instances
 			(project "BLEkeyboard"
 				(path "/a8b51667-118e-4d88-a968-30985fdb56f2"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7085,7 +7085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93ac0dd0-c0f6-47a6-8253-3648fccab680")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 185.42 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7145,7 +7145,7 @@
 		(instances
 			(project "BLEkeyboard"
 				(path "/a8b51667-118e-4d88-a968-30985fdb56f2"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8182,7 +8182,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcaa87b2-d496-4cb3-8cf8-58e0adc4ceae")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 115.57 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8242,7 +8242,7 @@
 		(instances
 			(project "BLEkeyboard"
 				(path "/a8b51667-118e-4d88-a968-30985fdb56f2"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8628,7 +8628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2879307-5117-4391-8dff-1079662fa3c0")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 124.46 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8688,7 +8688,7 @@
 		(instances
 			(project "BLEkeyboard"
 				(path "/a8b51667-118e-4d88-a968-30985fdb56f2"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)

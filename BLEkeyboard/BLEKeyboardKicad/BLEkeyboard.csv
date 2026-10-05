@@ -1,6 +1,4 @@
 Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
-"+1,-1",2,TestPoint,,,,TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm,
-"CLK1,DIO1",2,TestPoint,,,,TestPoint:TestPoint_Pad_D2.0mm,
 "D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18",18,D,,,,Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal,
 J1,1,Conn_01x02_Socket,,,,Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,
 SW1,1,SW_SPDT,,,,ul_MK12C02:MK-12C02-G020_GSW,

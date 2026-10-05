@@ -1,0 +1,285 @@
+(footprint "CherryMX_2.00u_PCB_StabWireBottom"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Cherry MX switch footprint. Size: 2.00u, Mount type: PCB, Using Kailh Socket: no, Stabilizer: PCB mounted (Wire Bottom), Lighting: none")
+	(tags "CherryMX 2.00u PCB StabWireBottom")
+	(property "Reference" "REF**"
+		(at 0 -8.6625 0)
+		(layer "F.SilkS")
+		(uuid "4eeb6926-2071-403a-b2a6-260162cc7d37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CherryMX_2.00u_PCB_StabWireBottom"
+		(at 0 8.6625 0)
+		(layer "F.Fab")
+		(uuid "a7eb9591-83ee-4cbb-8e9a-3373719feff4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fcc3fd8-a945-4102-9fd8-9ef70b172a06")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "908eeed6-f473-4957-9a7a-65378fb6dc3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -7 -7)
+		(end -7 7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c42d7877-bc3e-49b9-a680-def34da59447")
+	)
+	(fp_line
+		(start -7 -7)
+		(end 7 -7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1fb7eaa0-549d-48d3-b8b8-a3a6742299ee")
+	)
+	(fp_line
+		(start 7 -7)
+		(end 7 7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36bf213e-40c7-4a47-908c-112a65fb08d6")
+	)
+	(fp_line
+		(start 7 7)
+		(end -7 7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bb1ec5b-936e-410b-9094-c1fad4493331")
+	)
+	(fp_line
+		(start -19.05 -9.525)
+		(end 19.05 -9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7e02f1ac-20bb-4841-9be1-791f76f8cb20")
+	)
+	(fp_line
+		(start -19.05 9.525)
+		(end -19.05 -9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "160c3b99-38cc-4349-8320-8ee0d4ed9ebe")
+	)
+	(fp_line
+		(start 19.05 -9.525)
+		(end 19.05 9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1901dc4d-1063-4782-8f4e-8afa1efbcc08")
+	)
+	(fp_line
+		(start 19.05 9.525)
+		(end -19.05 9.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "af5a3e49-cfe3-4ec7-afe7-4c22adaa07bc")
+	)
+	(fp_line
+		(start -7.8 -7.8)
+		(end -7.8 7.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca931b4f-db6d-4c15-9117-d8139420b548")
+	)
+	(fp_line
+		(start -7.8 -7.8)
+		(end 7.8 -7.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc272028-ea30-43e5-97ca-ec9607bc8c62")
+	)
+	(fp_line
+		(start -7.8 7.8)
+		(end 7.8 7.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7fff27a8-b662-4f29-a1c4-274d29af1117")
+	)
+	(fp_line
+		(start 7.8 -7.8)
+		(end 7.8 7.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86bb629b-3b64-4f09-b155-5b1e31d8b9db")
+	)
+	(pad "" np_thru_hole circle
+		(at -11.938 -7)
+		(size 3.05 3.05)
+		(drill 3.05)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ba95ba8a-2d82-496b-8f95-7feb5155d07c")
+	)
+	(pad "" np_thru_hole circle
+		(at -11.938 8.24)
+		(size 4 4)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "81631f31-ecd4-464f-9cd2-7bd68c976874")
+	)
+	(pad "" np_thru_hole circle
+		(at -5.08 0)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "4f0ee7ba-9709-4abf-88c1-2d52ab34a082")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 4 4)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "0a74172a-1eae-41c8-8e1e-bfc672ba2060")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.08 0)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "fbd298ad-53be-4463-907e-937f1a6737b0")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.938 -7)
+		(size 3.05 3.05)
+		(drill 3.05)
+		(layers "*.Cu" "*.Mask")
+		(uuid "32e83bb3-910d-448f-81e2-70f71ddb9ae4")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.938 8.24)
+		(size 4 4)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "fd247400-115d-4301-b302-0e3159cd9bfe")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 -2.54)
+		(size 2.2 2.2)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2cef2e2d-cc35-4e8b-a108-59078ac462aa")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -5.08)
+		(size 2.2 2.2)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "02823961-5e0e-451a-8be2-81f7fecb6e10")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Stabilizer_Cherry_MX_2.00u.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "C:/Users/johnh/Documents/ECAD/keyboardstuff/BLEkeyboard/keyswitches.pretty/SW_MX.kicad_mod"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_PCB.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/1u.stl"
+		(opacity 0.0000)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
